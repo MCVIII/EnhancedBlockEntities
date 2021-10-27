@@ -1,5 +1,6 @@
 package foundationgames.enhancedblockentities.client.model;
 
+import net.fabricmc.fabric.api.renderer.v1.Renderer;
 import net.fabricmc.fabric.api.renderer.v1.RendererAccess;
 import net.fabricmc.fabric.api.renderer.v1.material.RenderMaterial;
 import net.fabricmc.fabric.api.renderer.v1.mesh.QuadEmitter;
@@ -87,8 +88,8 @@ public class DynamicBakedModel implements BakedModel, FabricBakedModel {
     }
 
     @Override
-    public Sprite getSprite() {
-        return models[0].getSprite();
+    public Sprite getParticleSprite() {
+        return models[0].getParticleSprite();
     }
 
     @Override

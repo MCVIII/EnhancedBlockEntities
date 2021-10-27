@@ -2,11 +2,13 @@ package foundationgames.enhancedblockentities.client.render.entity;
 
 import foundationgames.enhancedblockentities.client.render.BlockEntityRendererOverride;
 import foundationgames.enhancedblockentities.mixin.SignBlockEntityRenderAccessor;
+import java.util.List;
 import net.minecraft.block.SignBlock;
 import net.minecraft.block.WallSignBlock;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.SignBlockEntity;
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.OrderedText;

@@ -1,6 +1,7 @@
 package foundationgames.enhancedblockentities.util.duck;
 
 import foundationgames.enhancedblockentities.EnhancedBlockEntities;
+import net.minecraft.block.BlockState;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
